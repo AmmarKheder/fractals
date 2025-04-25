@@ -15,11 +15,15 @@ All the following visuals are located in the [`buring_ship/`](./buring_ship) dir
 | ![](./buring_ship/burning_ship_bateau_centre_4k.png) | **burning_ship_bateau_centre_4k.png** — Centered ship visual |
 | ![](./buring_ship/burning_ship_inferno.png) | **burning_ship_inferno.png** — With inferno colormap |
 
+---
+
 ## 🌀 Other Fractals
 
 | Preview | Title |
 |--------|-------|
 | ![](./buring_ship/julia_pm25_2016_domain.gif) | **julia_pm25_2016_domain.gif** — Animated Julia with PM2.5 |
+| ![](./buring_ship/julia_fra.jp2) | **julia_fra.jp2** — Julia fractal style test |
+| ![](./buring_ship/julia_a.png) | **julia_a.png** — Julia visual variation |
 | ![](./buring_ship/julia.jp2) | **julia.jp2** — Static Julia domain coloring |
 | ![](./buring_ship/mandelbrot_distance_4k.png) | **mandelbrot_distance_4k.png** — Mandelbrot with distance est. |
 
