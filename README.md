@@ -4,7 +4,7 @@ Each weekend, I share a new type of fractal: generator, style, animation, and al
 
 ---
 
-## 🔷 Current Fractal: Burning Ship
+##  Current Fractal: Burning Ship
 
 All the following visuals are located in the [`buring_ship/`](./buring_ship) directory.
 
@@ -21,13 +21,16 @@ All the following visuals are located in the [`buring_ship/`](./buring_ship) dir
 
 ---
 
-## 🌀 Other Fractals
+##  Other Fractals
 
 | Preview | Title |
 |--------|-------|
-| ![](./buring_ship/mandelbrot_distance_4k.png) | **mandelbrot_distance_4k.png** — Mandelbrot with distance est. |
-| ![](./buring_ship/julia_a.png) | **julia_a.png** — Julia visual variation |
-| ![](./buring_ship/julia_fra.png) | **julia.jp2** — Static Julia domain coloring |
+| ![](./buring_ship/mandelbrot_distance_4k.png) | Mandelbrot – Lightning Border Core
+(Classic Mandelbrot set with electric purple/yellow contour) |
+| ![](./buring_ship/julia_a.png) | Julia Spiral – Fireflowers Cluster
+(Julia set with spiral arms and glowing floral explosion) |
+| ![](./buring_ship/julia_fra.png) | Julia Domain Coloring – Rainbow Flux
+(Psychedelic domain-colored Julia with vivid structure and curves)|
 
 ---
 
@@ -41,14 +44,3 @@ All the following visuals are located in the [`buring_ship/`](./buring_ship) dir
 
 ---
 
-## Structure
-
-```bash
-fractals/
-│
-├── buring_ship/
-│   ├── script_burning_ship.py
-│   ├── burning_ship_4k.png
-│   ├── ...
-│   └── README.md
-├── README.md
