@@ -1,38 +1,48 @@
-# Burning Ship Fractals
+# Fractal Weekends
 
-This folder contains multiple high-resolution artistic visualizations of the **Burning Ship fractal**, rendered in 4K using custom techniques.
+Each weekend, I share a new type of fractal: generator, style, animation, and all the code needed to reproduce it.
 
-## Contents
+---
 
-### Scripts
-- `script_burning_ship.py` — Complete Python script (parallelized, high-res)
+## 🔷 Current Fractal: Burning Ship
 
-### Outputs (Examples)
-| Image | Description |
-|-------|-------------|
-| `burning_ship_4k.png` | Standard high-resolution rendering |
-| `burning_ship_4k_ultra.png` | Ultra-detailed version with extended iterations |
-| `burning_ship_bateau_centre_4k.png` | Centered view showcasing the ship shape |
-| `burning_ship_inferno.png` | Rendered with the `inferno` colormap for intense contrast |
+All the following visuals are located in the [`buring_ship/`](./buring_ship) directory.
 
-### Related Fractals (bonus outputs)
-| Image | Description |
-|-------|-------------|
-| `julia.jp2` | Static render from Julia set |
-| `julia_pm25_2016_domain.gif` | Julia animated GIF (PM2.5 variation by month) |
-| `mandelbrot_distance_4k.png` | Mandelbrot fractal with distance estimation method |
+| Preview | Title |
+|--------|-------|
+| ![](./buring_ship/burning_ship_4k.png) | **burning_ship_4k.png** — Standard high-resolution rendering |
+| ![](./buring_ship/burning_ship_4k_ultra.png) | **burning_ship_4k_ultra.png** — Ultra-detailed version |
+| ![](./buring_ship/burning_ship_bateau_centre_4k.png) | **burning_ship_bateau_centre_4k.png** — Centered ship visual |
+| ![](./buring_ship/burning_ship_inferno.png) | **burning_ship_inferno.png** — With inferno colormap |
+
+## 🌀 Other Fractals
+
+| Preview | Title |
+|--------|-------|
+| ![](./buring_ship/julia_pm25_2016_domain.gif) | **julia_pm25_2016_domain.gif** — Animated Julia with PM2.5 |
+| ![](./buring_ship/julia.jp2) | **julia.jp2** — Static Julia domain coloring |
+| ![](./buring_ship/mandelbrot_distance_4k.png) | **mandelbrot_distance_4k.png** — Mandelbrot with distance est. |
+
+---
 
 ## Features
 
-- 4K and Ultra-HD renders with color gradients and light bloom
-- `inferno` palette for contrast-rich effects
-- Glow, sparkles, and ambient noise layers
-- Parallelized rendering using `multiprocessing.Pool`
+- Python-based fractal generation
+- High-res outputs (4K+)
+- Domain coloring, super-sampling, distance estimation
+- Parallel rendering (`multiprocessing`)
+- Artistic styles: noise, glow, sparkles, gradients
 
-## How to Use
+---
 
-To regenerate or experiment with these renders:
+## Structure
 
-1. Install dependencies:
-   ```bash
-   pip install numpy pillow matplotlib tqdm
+```bash
+fractals/
+│
+├── buring_ship/
+│   ├── script_burning_ship.py
+│   ├── burning_ship_4k.png
+│   ├── ...
+│   └── README.md
+├── README.md
