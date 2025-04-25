@@ -9,15 +9,12 @@ Each weekend, I share a new type of fractal: generator, style, animation, and al
 All the following visuals are located in the [`buring_ship/`](./buring_ship) directory.
 
 | Preview | Title |
-|--------|-------|
-| ![](./buring_ship/burning_ship_4k.png) | Burning Ship – Overexposed Inferno Core
-(Fractal with intense central glow and deep inferno palette)|
-| ![](./buring_ship/burning_ship_4k_ultra.png) |Burning Ship – Cool Atmosphere Style
-(Bluish color scheme with soft outer gradients and starry glow) |
-| ![](./buring_ship/burning_ship_bateau_centre_4k.png) |Burning Ship – Noir Edition
-(Monochrome rendering with central focus and high contrast) |
-| ![](./buring_ship/burning_ship_inferno.png) |Burning Ship – Inferno Centered Sparkle
-(High-res centered version with inferno palette and glow highlights) |
+|:-------:|:-----|
+| ![](./buring_ship/burning_ship_zoom_loop.gif) | **Burning Ship – Hypnotic Zoom Loop**<br>(Smooth in-out zoom, infinite loop) |
+| ![](./buring_ship/burning_ship_4k.png) | **Burning Ship – Overexposed Inferno Core**<br>(Fractal with intense central glow and deep inferno palette) |
+| ![](./buring_ship/burning_ship_4k_ultra.png) | **Burning Ship – Cool Atmosphere Style**<br>(Bluish color scheme with soft outer gradients and starry glow) |
+| ![](./buring_ship/burning_ship_bateau_centre_4k.png) | **Burning Ship – Noir Edition**<br>(Monochrome rendering with central focus and high contrast) |
+| ![](./buring_ship/burning_ship_inferno.png) | **Burning Ship – Inferno Centered Sparkle**<br>(High-res centered version with inferno palette and glow highlights) |
 
 ---
 
