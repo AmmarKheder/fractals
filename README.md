@@ -1,31 +1,37 @@
-# Fractal Weekends
+# Burning Ship Fractals
 
-A personal collection of fractal explorations — every weekend, I experiment with a new fractal type, render it in high resolution, and share the code behind it.
+This folder contains multiple high-resolution artistic visualizations of the **Burning Ship fractal**, rendered in 4K using custom techniques.
 
-##  Structure
+## Contents
 
-Each fractal type lives in its own folder (e.g. `burning_ship/`, `julia/`, `mandelbrot/`, etc.), and contains:
+### Scripts
+- `script_burning_ship.py` — Complete Python script (parallelized, high-res)
 
-- `script_<name>.py` – the full Python script to generate the fractal  
-- `README.md` – short description and instructions  
-- `examples/` – high-res outputs and animations
+### Outputs (Examples)
+| Image | Description |
+|-------|-------------|
+| `burning_ship_4k.png` | Standard high-resolution rendering |
+| `burning_ship_4k_ultra.png` | Ultra-detailed version with extended iterations |
+| `burning_ship_bateau_centre_4k.png` | Centered view showcasing the ship shape |
+| `burning_ship_inferno.png` | Rendered with the `inferno` colormap for intense contrast |
 
-##  Features
+### Related Fractals (bonus outputs)
+| Image | Description |
+|-------|-------------|
+| `julia.jp2` | Static render from Julia set |
+| `julia_pm25_2016_domain.gif` | Julia animated GIF (PM2.5 variation by month) |
+| `mandelbrot_distance_4k.png` | Mandelbrot fractal with distance estimation method |
 
-- 4K rendering with smooth coloring and super-sampling  
-- Custom palettes (e.g. `inferno` from `matplotlib`)  
-- Glow, sparkles, domain coloring, and more  
-- Parallelized computation for heavy fractals (`multiprocessing`)
+## Features
 
----
+- 4K and Ultra-HD renders with color gradients and light bloom
+- `inferno` palette for contrast-rich effects
+- Glow, sparkles, and ambient noise layers
+- Parallelized rendering using `multiprocessing.Pool`
 
-##  My Creations
+## How to Use
 
-<!-- Add links or previews here -->
-
----
-
-## 🧪 How to Run
+To regenerate or experiment with these renders:
 
 1. Install dependencies:
    ```bash
