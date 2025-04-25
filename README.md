@@ -22,7 +22,6 @@ All the following visuals are located in the [`buring_ship/`](./buring_ship) dir
 | Preview | Title |
 |--------|-------|
 | ![](./buring_ship/mandelbrot_distance_4k.png) | **mandelbrot_distance_4k.png** — Mandelbrot with distance est. |
-| ![](./buring_ship/julia_pm25_2016_domain.gif) | **julia_pm25_2016_domain.gif** — Animated Julia with PM2.5 |
 | ![](./buring_ship/julia_a.png) | **julia_a.png** — Julia visual variation |
 | ![](./buring_ship/julia_fra.png) | **julia.jp2** — Static Julia domain coloring |
 
